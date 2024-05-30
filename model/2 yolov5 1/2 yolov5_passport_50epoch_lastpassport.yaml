@@ -1,0 +1,7 @@
+path: /content/yolo5/passport  # базовая директория
+train: /content/yolo5/passport/images/train  # путь к обучающим изображениям
+val: /content/yolo5/passport/images/val      # путь к валидационным изображениям
+
+# параметры датасета
+nc: 1  # количество классов
+names: ['passport1']  # названия классов

@@ -1,0 +1,8 @@
+path: /content/dataset/Passport  # путь к папке с датасетом
+train: /content/dataset/Passport/images/train  # путь к тренировочным изображениям
+val: /content/dataset/Passport/images/val  # путь к тренировочным изображениям
+test: /content/dataset/Passport/images/test  # путь к тестовым изображениям
+
+# Классы
+nc: 17  # количество классов
+names: ['passport', 'photo', 'OVD', 'data_OVD', 'code_OVD', 'Surname', 'FirstName', 'Patronymic', 'Gender', 'Birthday', 'Place_Birthday', 'SerialNumber1', 'SerialNumber2', 'podpis', 'metka_rus1', 'metka_rus2', 'metka_RF']
